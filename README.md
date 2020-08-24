@@ -24,10 +24,10 @@ Top logo and nav:
   1) Changed div to <aside> cos secondary content
   2) Added alt and title tag for the img
   3) Ensuring there is the closing '/' for img
-  4) Removed </img> because no such tag 
+  4) Removed <code>/img</code> because no such tag 
   
 ## FOOTER
   1) Changed div .footer to <footer> cos semantic
   2) Change H2 to H4 cos sequential order
   3) Let's give credit to the owner by giving a link back to his website
-  4) Changed ❤️ to &hearts; cos semantic
+  4) Changed ❤️ to <code>& hearts ;</code>(without space) cos semantic
