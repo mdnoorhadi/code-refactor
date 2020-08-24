@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+DECLARING THE FONT-FAMILY AT BODY
+*/
+body {
+    background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* MOVING THIS TO THE TOP */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* ADDED A HOVER */
+a:hover {
+    color: #dddddd;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* FLOAT 'EM! */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* MAIN HEADER */
+.top {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.top h1.logo {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.top h1.logo .seo {
+    color: #d9dcd6;
+}
+
+/* GIVE THE NAVIGATION A NAME .nav */
+.top nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-size: 20px;
+}
+
+.top nav ul {
+    list-style-type: none;
+}
+
+.top nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* HERO MASTHEAD */
+header.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* MAIN CONTENT */
+main.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+section.search-engine-optimization,
+section.online-reputation-management,
+section.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* 
+REMOVING THIS COS REPEATED
+EASIER TO UNDERSTAND IF COMBINED
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+*/
+
+section.search-engine-optimization img,
+section.online-reputation-management img,
+section.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* 
+REMOVING THIS COS REPEATED
+EASIER TO UNDERSTAND IF COMBINED
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+*/
+
+section.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* 
+REMOVING THIS COS REPEATED
+EASIER TO UNDERSTAND IF COMBINED
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+*/
+
+/* SIDEBAR */
+aside.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    background-color: #2589bd;
+}
+
+aside.benefits .benefit-lead,
+aside.benefits .benefit-brand,
+aside.benefits .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* 
+REMOVING THIS COS REPEATED
+EASIER TO UNDERSTAND IF COMBINED
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+*/
+
+aside.benefits .benefit-lead h3,
+aside.benefits .benefit-brand h3,
+aside.benefits .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* 
+REMOVING THIS COS REPEATED
+EASIER TO UNDERSTAND IF COMBINED
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+*/
+
+aside.benefits .benefit-lead img,
+aside.benefits .benefit-brand img,
+aside.benefits .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* 
+REMOVING THIS COS REPEATED
+EASIER TO UNDERSTAND IF COMBINED
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+*/
+
+/* FOOTER */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* CHANGED H2 TO H4 COS SEQUENTIAL ORDER */
+footer h4 {
+    font-size: 20px;
+}
+
+/* ADDED A HOVER COLOR AND TEXT DECORATION */
+footer h4 a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+footer h4 a:hover {
+    color: #333333;
+    text-decoration: none;
+}
