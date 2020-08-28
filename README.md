@@ -11,7 +11,7 @@ Top logo and nav:
   3) Added h1 class .logo
   4) Changed div to <nav> cos navigation links
   
-## BODY
+## IMAGES
 All images' file size reduced to optimise and ensure page loads faster.
   
 ## HERO
