@@ -11,6 +11,9 @@ Top logo and nav:
   3) Added h1 class .logo
   4) Changed div to <nav> cos navigation links
   
+## BODY
+All images' file size reduced to optimise and ensure page loads faster.
+  
 ## HERO
   1) Changed div to <header> cos it's the website masthead
   
